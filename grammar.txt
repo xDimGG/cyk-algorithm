@@ -1,0 +1,7 @@
+SABC
+abcd
+
+S->AC|e
+A->a
+B->b|BC
+C->b|c|d
