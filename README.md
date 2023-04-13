@@ -1,0 +1,3 @@
+# cyk-algorithm
+CFG (Context-Free Grammar) parser + CYK (Cocke-Younger-Kasami) algorithm to determine whether a string is in the language.
+To run the program...
