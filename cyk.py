@@ -32,9 +32,9 @@ for i in range(1, len(string)):
             for rhs in itertools.product(matrix[k][j], matrix[i - 1 - k][j + 1 + k]):
                 matrix[i][j] |= cfg.rule_to_variables(rhs)
 
-if matrix[len(string)-1][0] != set(): 
-    print('Accept, string is in the language')
+if cfg.S in matrix[-1][0]: 
+    print(f'{string} is in the language')
 else:
-    print('Deny, string is not in the language')
+    print(f'{string} is not in the language')
 
 print(matrix)
