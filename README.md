@@ -16,4 +16,4 @@ CYK Algorithm Used:
 	2 -> Creates rows equaling to length of string - 1 with each row having 1 less column than the last  
 	3 -> For each row iterates through the columns adding Variables that apply to each combination of cells/rules  
 	4 -> If final row contains S variable, prints success else prints failure  
-Time Complexity - O(n^2)
+Time Complexity - O(n^3)
